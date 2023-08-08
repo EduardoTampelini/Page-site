@@ -1,0 +1,278 @@
+html,body{
+    
+    margin: 0;
+    font-family:"Roboto";
+    background: linear-gradient(rgb(33, 33, 255),white 20%);
+    color: white;
+}
+
+h3{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#video_botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#video_botao h1{
+    font-size: 40px;
+    font-family: 'Poppins';
+}
+#video_botao span{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#video_botao iframe{
+    margin-top: 10px;
+    width: 45vw;
+    height: 50vh;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+#video_botao button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+    height: 15%;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background: linear-gradient(to right , rgb(2, 250, 2)20%, rgb(2, 208, 2)60%,rgb(2, 190, 2));
+    animation: pulse 2s infinite;
+    font-size: 80%;
+}
+#video_botao button:hover{
+    scale: 1.1;
+    background:linear-gradient(to right , rgb(2, 250, 2), rgb(2, 250, 2), rgb(2, 250, 2));
+    animation: pulse 0s none;
+    transition: 0.5s;
+
+}
+#infmed{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    color: #585858;
+    
+}
+#infmed #tes{
+    display: flex;
+    flex-direction: row;
+
+}
+#infmed #tes img{
+    border: 3px solid #585858;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+   
+    margin: 10px;
+    
+}
+
+
+#infmed #tes h2{
+    font-size: 40px;
+    width: 100%;
+    display: flex ;
+    justify-content: right;
+    align-items: center;
+    
+    margin-right: 30px;;
+    
+    
+    
+}
+#infmed p{
+    font-size: 40px;
+    padding: 10px;
+}
+
+footer{
+    background:linear-gradient( #0e0e0e , black ) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+footer p{
+
+    width: 50vw;
+}
+
+@media screen and (max-width: 1175px){
+    #video_botao h1{
+        font-size: 35px;
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (max-width: 1036px){
+    #video_botao h1{
+        font-size: 25px;
+        font-family: 'Poppins';
+
+    }
+    #infmed #tes h2{
+        font-size: 30px;
+        width: 100%;
+        display: flex ;
+        justify-content: right;
+        align-items: center;
+        
+        margin-right: 30px;;
+        
+        
+        
+    }
+}
+@media screen and (max-width: 1000px){
+    #video_botao iframe{
+        margin-top: 10px;
+        width: 92vw;
+        height: 25vh;
+    }
+   
+    #video_botao h1{
+        font-size: 35px;
+        font-family: 'Poppins';
+        margin-left: 10px;
+    }
+    #infmed #tes h2{
+        font-size: 40px;
+        width: 100%;
+        display: flex ;
+        justify-content: right;
+        align-items: center;
+        
+        margin-right: 30px;;
+        
+        
+        
+    }
+    #video_botao button{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 20%;
+        height: 15%;
+        border: none;
+        cursor: pointer;
+        color:white;
+        background: linear-gradient(to right , rgb(2, 250, 2)20%, rgb(2, 208, 2)60%,rgb(2, 190, 2));
+        animation: pulse 2s infinite;
+        font-size: 90%;
+        text-align: center;
+        
+    }
+    #infmed p{
+        font-size: 30px;
+        padding: 5px;
+    }
+    #infmed{
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        color: #585858;
+        
+    }
+   
+   
+}
+@media screen and (max-width: 500px){
+    #video_botao iframe{
+        margin-top: 10px;
+        width: 92vw;
+        height: 25vh;
+    }
+   
+    #video_botao h1{
+        font-size: 22px;
+        font-family: 'Poppins';
+        margin-left: 10px;
+    }
+    #infmed #tes h2{
+        font-size: 20px;
+        width: 100%;
+        display: flex ;
+        justify-content: right;
+        align-items: center;
+        
+        margin-right: 30px;;
+        
+        
+        
+    }
+    #video_botao button{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 30%;
+        height: 15%;
+        border: none;
+        cursor: pointer;
+        color:white;
+        background: linear-gradient(to right , rgb(2, 250, 2)20%, rgb(2, 208, 2)60%,rgb(2, 190, 2));
+        animation: pulse 2s infinite;
+        font-size: 80%;
+        text-align: center;
+        
+    }
+    #infmed p{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #infmed{
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        color: #585858;
+        
+    }
+    
+}
+
